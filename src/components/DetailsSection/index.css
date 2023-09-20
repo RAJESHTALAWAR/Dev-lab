@@ -1,0 +1,200 @@
+.background-image-container {
+  background-image: linear-gradient(to right, rgb(143, 203, 229), white);
+  height: 600px;
+  width: 100%;
+}
+
+.details-section-container {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  padding-top: 60px;
+}
+
+.card {
+  width: 520px;
+  height: 470px;
+  border-radius: 34px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+.details {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.input-container {
+  display: flex;
+  flex-direction: row;
+  margin-left: 0px;
+  margin-bottom: 30px;
+  justify-content: flex-start;
+}
+.input-name {
+  width: 329px;
+  height: 47px;
+  border-radius: 5px;
+  border-style: none;
+  background-color: rgb(239, 236, 232);
+  margin-left: 18px;
+  padding-left: 30px;
+}
+
+.contact-logo {
+  width: 46px;
+  height: 45.2px;
+}
+.check-box-logo {
+  width: 20.82px;
+  height: 20.82px;
+  margin-right: 35px;
+}
+
+.check-box-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.condition {
+  width: 306px;
+  font-size: 12px;
+}
+.button-details {
+  margin-top: 30px;
+  width: 236px;
+  height: 42px;
+  background-color: rgb(69, 179, 222);
+  color: white;
+  border-radius: 10px;
+  border-style: none;
+  font-size: 25;
+}
+
+.offer-button {
+  background-color: #161871;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-top: 40px;
+  width: 708px;
+  border-radius: 20px;
+}
+
+.original-price {
+  text-decoration: line-through;
+  color: #999;
+  margin-right: 10px;
+  width: 470px;
+}
+.lab-text {
+  margin-right: 0px;
+}
+.discount {
+  color: #e74c3c;
+  font-weight: bold;
+  margin-left: 10px;
+  width: 103px;
+}
+.para-details {
+  font-weight: 600;
+}
+.rupee {
+  align-self: center;
+  margin-top: 15px;
+}
+
+.test-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.lab-text-1 {
+  color: skyblue;
+}
+.rough {
+  width: 307px;
+  height: 17px;
+}
+
+.bg {
+  display: flex;
+  flex-direction: column;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+}
+
+.photo-container {
+  background-image: url('https://res.cloudinary.com/duwvk9yrh/image/upload/v1695130104/medium-shot-woman-looking-through-microscope-removebg-preview_1_1_wy43x7.png');
+  width: 354px;
+  height: 394px;
+  margin-top: 40px;
+  position: relative;
+}
+
+.photo-container::before,
+.photo-container::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: black;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.photo-container::before {
+  transform: rotate(45deg);
+}
+
+.photo-container::after {
+  transform: rotate(-45deg);
+}
+
+.cross::before {
+  transform: rotate(45deg);
+}
+
+.cross::after {
+  transform: rotate(-45deg);
+}
+
+.research-card {
+  display: display;
+  flex-direction: row;
+  width: 168px;
+  height: 69px;
+  background-color: blur;
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 120px;
+  margin-top: 40px;
+}
+
+.footer-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 50px;
+}
+
+.health {
+  width: 60px;
+  height: 66px;
+}

@@ -1,0 +1,66 @@
+.main-header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 83px;
+  width: 100%;
+  align-items: center;
+}
+
+.company-logo {
+  width: 277px;
+  height: 64px;
+}
+
+.header-name {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+.name {
+  margin-right: 20px;
+  font-size: 20px;
+  font-weight: 400;
+}
+.name-last {
+  margin-right: 40px;
+  font-size: 20px;
+  font-weight: 400;
+}
+.name-color {
+  margin-right: 20px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #5cb2dd;
+  font-weight: 500;
+}
+
+.button {
+  height: 35px;
+  width: 120px;
+  align-self: center;
+  background-color: #00486c;
+  color: white;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+
+.play-store-button {
+  height: 35px;
+  width: 120px;
+  align-self: center;
+  background-color: rgb(44, 42, 42);
+  color: white;
+  margin-right: 20px;
+  border-radius: 5px;
+  align-self: center;
+
+  display: flex;
+  align-items: center;
+}
+.icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  margin-left: 2px;
+}

@@ -1,0 +1,92 @@
+.rough {
+  width: 200px;
+  height: 19px;
+  margin-top: 0px;
+}
+
+.mark {
+  color: black;
+}
+
+.expanding-heading {
+  width: 268px;
+  color: rgb(69, 179, 222);
+  margin-left: 12px;
+}
+
+.rough-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.package-container-1 {
+  height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0px;
+  padding: 0px;
+  flex-direction: column;
+}
+
+.para-heading {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.break-line {
+  text-align: center;
+}
+
+.rating-card {
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.rating {
+  width: 330px;
+  height: 380px;
+  border-radius: 5px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  margin-top: 0px;
+  margin-right: 80px;
+}
+
+.card-rating-heading {
+  font-weight: 500;
+  font-size: 28px;
+}
+
+.rating-start-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+.para-review {
+  color: rgb(144, 132, 116);
+}
+
+.para-start {
+  font-weight: 500;
+  margin-right: 4px;
+  font-size: 18px;
+}
+.para-details {
+  margin-top: 0px;
+  padding-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.rupee-container {
+}

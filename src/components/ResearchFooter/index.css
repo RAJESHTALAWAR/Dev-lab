@@ -1,0 +1,26 @@
+.research-card {
+  display: display;
+  flex-direction: row;
+  width: 168px;
+  height: 69px;
+  background-color: blur;
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 120px;
+  margin-top: 40px;
+}
+
+.footer-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 50px;
+}
+
+.health {
+  width: 60px;
+  height: 66px;
+}

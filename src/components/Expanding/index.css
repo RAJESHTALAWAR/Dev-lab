@@ -1,0 +1,64 @@
+.expanding-container {
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  align-items: center;
+}
+.lab-collection {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  margin-top: 50px;
+}
+
+.para {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  margin-bottom: 8px;
+}
+
+.para-1 {
+  color: white;
+  font-size: 12px;
+  margin: 0px;
+}
+
+.card-lab {
+  background-color: rgb(69, 179, 222);
+  color: white;
+  border-radius: 15px;
+  width: 138px;
+  height: 72px;
+  border-style: none;
+  margin-right: 100px;
+  display: flex;
+  flex-direction: column;
+  height: 90px;
+  width: 120px;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.rough {
+  width: 200px;
+  height: 19px;
+  margin-top: 0px;
+}
+
+.mark {
+  color: black;
+}
+
+.expanding-heading {
+  width: 268px;
+  color: rgb(69, 179, 222);
+  margin-left: 12px;
+}
+
+.rough-container {
+  display: flex;
+  flex-direction: row;
+}
